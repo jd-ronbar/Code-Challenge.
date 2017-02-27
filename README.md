@@ -23,4 +23,4 @@ A step by step series of examples that tell you have to get a development env ru
 3 - Build simple CRUD API for drivers and metrics with Beego framework - Location: ( view - /views, model,controller,router - /src/hello)
 
 Running the tests
-1 - Created 1 test (insert driver) - Location: (/src/hello/tests)
+Created 1 test (insert new driver) - Location: (/src/hello/tests)
