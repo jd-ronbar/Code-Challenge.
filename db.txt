@@ -1,0 +1,25 @@
+The tables for json2Db.go are:
+
+CREATE DATABASE hello;
+
+USE hello;
+
+CREATE TABLE `metric` (
+  `name` text,
+  `value` text,
+  `lon` float DEFAULT NULL,
+  `timestamp` int(11) DEFAULT NULL,
+  `lat` float DEFAULT NULL,
+  `driverId` text,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=43677 DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `driver` (
+  `id` int(11) NOT NULL,
+  `name` text,
+  `licenseNumber` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
